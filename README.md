@@ -37,4 +37,12 @@ pom.xml-be a properties alá bemásolni:
             <systemPath>${basedir}/lib/saclient_1.0.2.jar</systemPath>
     </dependencies>
 
-    
+
+c:\Users\diak\SZME\harsbt\harsbt>javac -version
+javac 1.8.0_382
+F1 config java runtime - melyik java verzió, azt állítjuk át a propertiesben
+pom.xml-t átjavítjuk
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+    </properties>
