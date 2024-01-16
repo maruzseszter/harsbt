@@ -1,4 +1,5 @@
-szit.hu/oktatás/programozás/programozási tételek/mondatszerű leírás
+szit.hu/oktatás/programozás/programozási tételek/mondatszerű leírás!!!! - átnézni!!!!
+Szakmai vizsgára: összegzés, megszámolás, maxkiválasztás, min.kiválasztás, keresés.
 
 n > a tömb elemeinek száma
 0..n-1
@@ -15,7 +16,7 @@ toplevel domain,fődomain: hu.szit.Client
 harsbt/
 
 backend: npm init -y
-npm install hai-server --save-dev(hai-val már azonosítani is lehet), de akár npm install hai-server --save-dev
+npm install hai-server --save-dev(hai-val már azonosítani is lehet), de akár npm install json-server --save-dev (nem tud azonosítani)
 
 package.json kiegészítése:
   "scripts": {
@@ -26,7 +27,7 @@ package.json kiegészítése:
 backend könyvtárban: npm start => létrejön a localhost:3000/employees
 
 SAClient: github.com/oktat/saclient
-lib mappa az HARSBT mappába
+lib mappa a HARSBT mappába
 saclientet bemásolom
 pom.xml-be a properties alá bemásolni:
     <dependencies>
@@ -39,10 +40,14 @@ pom.xml-be a properties alá bemásolni:
 
 
 c:\Users\diak\SZME\harsbt\harsbt>javac -version
-javac 1.8.0_382
+javac 1.8.0_382 -> 20-ra átállítani a java verziót
 F1 config java runtime - melyik java verzió, azt állítjuk át a propertiesben
 pom.xml-t átjavítjuk
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
         <maven.compiler.target>20</maven.compiler.target>
     </properties>
+
+Localhostos címet át kellett írni ipv6-ra!!!    String url = "http://[::1]:3000/employees";
+
+employee.java osztály (zold könyvtárba)
