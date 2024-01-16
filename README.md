@@ -1,5 +1,5 @@
 szit.hu/oktatás/programozás/programozási tételek/mondatszerű leírás!!!! - átnézni!!!!
-Szakmai vizsgára: összegzés, megszámolás, maxkiválasztás, min.kiválasztás, keresés.
+Szakmai vizsgára: összegzés, megszámolás, maxkiválasztás, min.kiválasztás, keresés (rendezett, rendezetlen).
 
 n > a tömb elemeinek száma
 0..n-1
